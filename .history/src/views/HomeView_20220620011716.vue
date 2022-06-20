@@ -6,12 +6,10 @@
     Todo lo que necesitas en un sólo lugar
    </h1>
 
-    <b-button class="registrarse" v-on:click="showModal=true">
+    <b-button class="registrarse" v-on:click="showModal()">
       Comienza ahora
     </b-button>
-    <Login v-if="showModal">
-    <b-button  variant="outline" size="sm" id="cerrar" v-on:click="showModal=false">X</b-button>
-    </Login>
+    <Login/>
     </body>
    
   </main>
@@ -24,10 +22,8 @@ import Login from '../components/Login.vue'
 export default{
   name:'Home',
   data(){
-    return{
-      showModal:false
-    }
-  },
+    
+  }
 components: {
   Navbar,
   Login

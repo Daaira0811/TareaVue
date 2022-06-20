@@ -9,12 +9,26 @@
     <b-button class="btn"  variant="outline-warning" size="sm">
         Registrate
     </b-button>
-
+    <teleport to="main">
+        <Login/>
+    </teleport>
     </div>
     
 </div>
 </template>
 <script>
+import Login from "../components/Login.vue"
+
+  
+  data(){
+    return{
+      showModal:false
+    }
+  },
+  
+components: {
+  Login
+}
 
 
 </script>

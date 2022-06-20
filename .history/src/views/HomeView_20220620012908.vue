@@ -9,9 +9,7 @@
     <b-button class="registrarse" v-on:click="showModal=true">
       Comienza ahora
     </b-button>
-    <Login v-if="showModal">
-    <b-button  variant="outline" size="sm" id="cerrar" v-on:click="showModal=false">X</b-button>
-    </Login>
+    <Login v-if="showModal"/>
     </body>
    
   </main>

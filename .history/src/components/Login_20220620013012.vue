@@ -1,7 +1,6 @@
 <template>
    <div id="container-Modal">
     <div id="modal">
-   
       <h1>Bienvenido a <br>
     Notes</h1>
     <hr>
@@ -41,11 +40,6 @@
 </template>
 <script>
 
-export default{
-  name:'Login',
-  
-
-}
 </script>
 <style>
 h1{
@@ -82,12 +76,13 @@ h1{
 b-form-group > label{
 text-align: left;
 }
-
+p{
+  margin:15px;
+}
 a{
   text-decoration-line: underline;
 }
 .btn{
-  margin:15px;
+  margin:10px;
 }
-
 </style>

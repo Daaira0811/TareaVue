@@ -1,7 +1,7 @@
 <template>
    <div id="container-Modal">
     <div id="modal">
-   
+        <b-button  id="cerrar" v-on:click="showModal=false">x</b-button>
       <h1>Bienvenido a <br>
     Notes</h1>
     <hr>
@@ -43,7 +43,11 @@
 
 export default{
   name:'Login',
-  
+  data(){
+    return{
+      showModal:true
+    }
+  },
 
 }
 </script>
@@ -89,5 +93,8 @@ a{
 .btn{
   margin:15px;
 }
-
+#cerrar{
+   
+right:0;
+}
 </style>
