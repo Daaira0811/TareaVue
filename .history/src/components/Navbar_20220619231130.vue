@@ -20,7 +20,6 @@
 
 <style>
 #cuerpoNav{
-    position:absolute;
     display:flex;
     flex-direction: row;
     width:100vw;

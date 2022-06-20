@@ -3,10 +3,10 @@
     <img src="../assets/image2.png"  alt="image2.png" >
     <h1>NOTES</h1>
     <div id="botones">
-<b-button class="btn" variant="outline-warning" size="sm">
+<b-button variant="outline-warning" size="sm">
         Iniciar Sesión
     </b-button>
-    <b-button class="btn"  variant="outline-warning" size="sm">
+    <b-button variant="outline-warning" size="sm">
         Registrate
     </b-button>
     </div>
@@ -20,10 +20,9 @@
 
 <style>
 #cuerpoNav{
-    position:absolute;
     display:flex;
     flex-direction: row;
-    width:100vw;
+    width:100%;
     height:10vh;
     background-color: #172420;
     color: white;
@@ -34,7 +33,7 @@ img {
     height: 100%;
 }
 h1{
-    margin:15px;
+    margin:20px;
 }
 #botones{
     position: absolute;
@@ -44,9 +43,6 @@ h1{
     align-content: unset;
     right: 0;
     padding: 20px;
-}
-.btn{
-    margin: 5px;
 }
 
 </style>

@@ -6,24 +6,22 @@
     Todo lo que necesitas en un sólo lugar
    </h1>
 
-    <b-button class="registrarse" v-on:click="">
+    <b-button class="registrarse">
       Comienza ahora
     </b-button>
-    <Login/>
     </body>
    
+
   </main>
 </template>
 <script>
 
 import Navbar from '../components/Navbar.vue'
-import Login from '../components/Login.vue'
 
 export default{
   name:'Home',
 components: {
-  Navbar,
-  Login
+  Navbar
 },
 
 }

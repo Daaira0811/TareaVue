@@ -9,7 +9,6 @@
     <b-button class="registrarse" v-on:click="">
       Comienza ahora
     </b-button>
-    <Login/>
     </body>
    
   </main>
@@ -22,8 +21,7 @@ import Login from '../components/Login.vue'
 export default{
   name:'Home',
 components: {
-  Navbar,
-  Login
+  Navbar
 },
 
 }
